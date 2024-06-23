@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-div{
+    margin-block: 50px;
+}
+
+.top-div h1{
+    text-align: center;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 50px;
+}
+
+.nav-div ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: white;
+}
+
+.bottom-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-block: 50px;
+}
+
+.bottom-div img{
+    width: 90vw;
+    height: 90vh;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
